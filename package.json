@@ -1,0 +1,44 @@
+{
+  "name": "crossBrowserTests",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/monterail/solarcapture-web-ui",
+  "author": {
+    "name": "Tomasz Jaworski",
+    "email": "tomek.jaworski9@wp.pl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monterail/solarcapture-web-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/monterail/solarcapture-web-ui/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/monterail/solarcapture-web-ui/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/crossBrowserTests",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-env": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-simple-mocha": "latest",
+    "grunt-concurrent": "latest",
+    "grunt-contrib-watch": "latest",
+    "wd": "latest",
+    "chai": "latest",
+    "chai-as-promised": "latest",
+    "lodash": "latest",
+    "colors": "latest",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
+}
